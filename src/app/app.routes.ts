@@ -1,3 +1,12 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { HomePageComponent } from './home-page/home-page.component';
+import { SingInPageComponent } from './sing-in-page/sing-in-page.component';
+import { SingUpPageComponent } from './sing-up-page/sing-up-page.component';
+
+export const routes: Routes = [
+  { path: '', pathMatch: 'full', redirectTo: 'home' },
+  { path: 'home', component: HomePageComponent },
+  { path: 'sign-in', component: SingInPageComponent },
+  { path: 'sign-up', component: SingUpPageComponent },
+];
