@@ -12,5 +12,6 @@ import { NgFor } from '@angular/common';
 })
 export class ArticlePreviewComponent {
   @HostBinding('class') class = 'article-preview';
+
   tags = ['enim', 'repellat', 'est', 'eos'];
 }
