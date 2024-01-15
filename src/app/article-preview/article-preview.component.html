@@ -5,7 +5,7 @@
       src="https://api.realworld.io/images/demo-avatar.png"
     />
     <div class="info">
-      <a class="authour">Oliver</a>
+      <a class="author">Oliver</a>
       <span class="date">January 4, 2024</span>
     </div>
   </div>
@@ -24,7 +24,5 @@
 </div>
 <div class="footer">
   <span>Read more ...</span>
-  <div>
-    <app-tag *ngFor="let tag of tags" [name]="tag"></app-tag>
-  </div>
+  <app-tag-list [tags]="tags"></app-tag-list>
 </div>
