@@ -12,3 +12,14 @@
   padding-left: 0.6rem;
   border-radius: 10rem;
 }
+
+:host(.default) {
+  background: #818a91;
+  color: #fff;
+}
+
+:host(.outline) {
+  border: 1px solid #aaa;
+  color: #aaa;
+  background: 0 0;
+}
